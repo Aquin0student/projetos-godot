@@ -6,6 +6,9 @@ const MAX_SPEED = 50
 =======
 @onready var health_component: HealthComponent = $HealthComponent
 
+<<<<<<< HEAD
+>>>>>>> parent of f99e6e7 (atribuição de dano contra o inimigo)
+=======
 >>>>>>> parent of f99e6e7 (atribuição de dano contra o inimigo)
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -27,7 +30,11 @@ func get_direction_to_player():
 
 func on_area_entered(other_area: Area2D):
 <<<<<<< HEAD
+<<<<<<< HEAD
 	queue_free()
+=======
+	health_component.damage(100)
+>>>>>>> parent of f99e6e7 (atribuição de dano contra o inimigo)
 =======
 	health_component.damage(100)
 >>>>>>> parent of f99e6e7 (atribuição de dano contra o inimigo)
